@@ -4,6 +4,7 @@ library(TwoSampleMR)
 library(RadialMR)
 library(phenoscanner)
 library(gt)
+#The Exposure in this Instance is COVID-19-Related Critical Illness
 #Formatting Exposure Data
 exposure_data <- read_tsv("hgi_A.tsv.gz", 
                           comment = "#",)
