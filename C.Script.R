@@ -4,6 +4,7 @@ library(TwoSampleMR)
 library(RadialMR)
 library(phenoscanner)
 library(gt)
+#The Exposure in this Instance is Reported SARS-CoV-2 Infection
 #Formatting Exposure Data
 exposure_data <- read_tsv("hgi_C.tsv.gz", 
                           comment = "#",)
